@@ -53,6 +53,8 @@ this is simple image zooming
   </style>
   
      
+                             this is main code 
+                             
                              
  <script>
         $(document).ready(function () {
