@@ -10,15 +10,13 @@ this is simple image zooming
 </head>
 <body>
     
-  
-  
-  
-  
-   <div class="main-image-wapper">
+    main image
+   
+    <div class="main-image-wapper">
      <img class=" imageView" src="image source data-large="/image source" alt="">
    </div>
   
-   {{!-- the image source is very important and you need to add the class name to the down function  and data larg is very important becuase the funtion work with data large --}}
+ 
   
                                                                                 
               one function for image gallery
@@ -35,9 +33,7 @@ this is simple image zooming
                return false;
         })
                                                                                 
-                                                                                
-  {{!--  end  put the code down okay--}} 
-
+ 
 
                                                                                 
                                                                                 
@@ -46,7 +42,9 @@ this is simple image zooming
                                                                                 
                                                                                 
                                                                                 
-    //if you want some glass model zoom//
+   
+                             
+                             if youw want glass style add this
   <style>
       .glass{
           border-radius: 100px;
@@ -54,19 +52,19 @@ this is simple image zooming
       }
   </style>
   
-      //if you want some glass model zoom add top code //
+     
+                             
  <script>
         $(document).ready(function () {
             $(".imageView").imagezoomsl({
    
-   {{!-- (optional) this is for glass else you will get normal --}}
-              //  innerzoommagnifier: true,
+        if you wabt more option add this
+                          
+               innerzoommagnifier: true,
                 classmagnifier: "glass",
                 magnifiersize: [200, 200],
                 disablewheel: false  //
-   
-     {{!-- this is for glass else you will get normal  end--}}
-   
+    
             });
         });
     </script>
